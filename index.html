@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    <title>Cadastro de produto</title>
+</head>
+<body>
+    <header>
+
+        <div>
+            <h2 class="logo1">LOGO LOGO</h2>
+            <img src="Pasta-imagens/Imagem de logo do catálogo de produtos.png" alt="Imagem da logo"
+            class="imagemlogo">
+        </div>
+
+        <h3 class="cadastro1">CADASTRO DE PRODUTOS</h3>
+
+    </header>
+
+    <nav>
+        
+    </nav>
+
+    <main>
+       <!--  <div>
+            <img src="Pasta-imagens/Imgem 1 do catálogo de produtos.png" alt="Imagem 1"
+            class="imagem1">
+            <img src="Pasta-imagens/Imagem 2 do catálogo de produtos.png" alt="Imagem 2"
+            class="imagem2">
+            <img src="Pasta-imagens/Imagem 3 do catálogo de produtos.png" alt="Imagem 3"
+            class="imagem3">
+            <img src="Pasta-imagens/Imagem 4 do catálogo de produtos.png" alt="Imagem 4"
+            class="imagem4">
+            <img src="Pasta-imagens/Imagem 5 do catálogo de produtos.png" alt="Imagem 5"
+            class="imagem5">
+            <img src="Pasta-imagens/Imagem 6 do catálogo de produtos.png" alt="Imagem 6"
+            class="imagem6">
+            <img src="Pasta-imagens/Imagem 7 do catálogo de produtos.png" alt="Imagem 7"
+            class="imagem7">
+            <img src="Pasta-imagens/Imagem 8 do catálogo de produtos.png" alt="Imagem 8"
+            class="imagem8">
+
+        </div> -->
+        
+        <div class="imagemDoProduto">
+            <label for="imagemProduto">Foto do Produto</label>
+            <div class="preVisualizacaoDaImagem" id="preVisualizacaoImagem">
+                <img id="imgPrevia" src="" alt="Pré-visualizacao da imagem" style="display: none;">
+                <span class="imagemPlaceholder">Escolha uma imagem</span>
+
+            </div>
+            <input class="arquivoImagem" type="file" id="imagemProduto" accept="image/*">
+
+        </div>
+
+        <form>
+            <div class="nomeDoProduto">
+                <label for="nomeProduto">Nome do Produto</label>
+                <input type="text" id="nomeProduto" placeholder="Digite o nome do produto">
+                <br>
+                <label for="descricao">Descrição do Produto:</label>
+                <textarea name="descricao" id="descriçao" rows="4" cols="50" placeholder="Escreva da descrição do produto..." required></textarea>
+                <!--  <input type="textarea" name="descricao" id="descricao" rows="4" cols="50" placeholder="Escreva a descrição do produto..." required> -->
+                <br>
+                <label for="preco" class="precoProduto">Preço:</label>
+                <input type="number" name="preco" id="preco" step="0.01" required>
+
+            </div>
+    
+        </form>
+    </main>
+
+    <footer>
+        <div class="div1">
+            <button type="submit">Salvar</button>
+            <button type="reset">Cancelar</button>
+        </div>
+
+    </footer>
+</body>
+</html>
