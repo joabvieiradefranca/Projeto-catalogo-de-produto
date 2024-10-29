@@ -11,9 +11,7 @@
     <header>
 
         <div>
-            <h2 class="logo1">LOGO LOGO</h2>
-            <img src="Pasta-imagens/Imagem de logo do catálogo de produtos.png" alt="Imagem da logo"
-            class="imagemlogo">
+            <img src="Pasta-imagens/Imagem logo do catálogo de produto.png" alt="Imagem da logo do catálogo de produtos" class="imagemLogo">
         </div>
 
         <h3 class="cadastro1">CADASTRO DE PRODUTOS</h3>
@@ -25,7 +23,7 @@
     </nav>
 
     <main>
-       <!--  <div>
+       <div>
             <img src="Pasta-imagens/Imgem 1 do catálogo de produtos.png" alt="Imagem 1"
             class="imagem1">
             <img src="Pasta-imagens/Imagem 2 do catálogo de produtos.png" alt="Imagem 2"
@@ -33,7 +31,7 @@
             <img src="Pasta-imagens/Imagem 3 do catálogo de produtos.png" alt="Imagem 3"
             class="imagem3">
             <img src="Pasta-imagens/Imagem 4 do catálogo de produtos.png" alt="Imagem 4"
-            class="imagem4">
+            class="imagem4"> 
             <img src="Pasta-imagens/Imagem 5 do catálogo de produtos.png" alt="Imagem 5"
             class="imagem5">
             <img src="Pasta-imagens/Imagem 6 do catálogo de produtos.png" alt="Imagem 6"
@@ -43,7 +41,7 @@
             <img src="Pasta-imagens/Imagem 8 do catálogo de produtos.png" alt="Imagem 8"
             class="imagem8">
 
-        </div> -->
+        </div> 
         
         <div class="imagemDoProduto">
             <label for="imagemProduto">Foto do Produto</label>
@@ -60,21 +58,31 @@
             <div class="nomeDoProduto">
                 <label for="nomeProduto">Nome do Produto</label>
                 <input type="text" id="nomeProduto" placeholder="Digite o nome do produto">
+            </div>
                 <br>
+                <br>
+
+            <div class="div1">
                 <label for="descricao">Descrição do Produto:</label>
                 <textarea name="descricao" id="descriçao" rows="4" cols="50" placeholder="Escreva da descrição do produto..." required></textarea>
                 <!--  <input type="textarea" name="descricao" id="descricao" rows="4" cols="50" placeholder="Escreva a descrição do produto..." required> -->
-                <br>
+            </div>   
+               <br>
+               <br>
+                
+            <div class="div2">
                 <label for="preco" class="precoProduto">Preço:</label>
-                <input type="number" name="preco" id="preco" step="0.01" required>
-
+                <div class="precoInput">
+                   <!-- <span class="prefixo">R$</span> -->
+                    <input type="text" name="preco" id="preco" placeholder="Digite o preço do produto" required>
+                </div>
             </div>
     
         </form>
     </main>
 
     <footer>
-        <div class="div1">
+        <div>
             <button type="submit">Salvar</button>
             <button type="reset">Cancelar</button>
         </div>
