@@ -48,17 +48,6 @@ body {
     margin-top: 20px;
 }
 
-.images-column {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.menu-image {
-    width: 100px;
-    height: auto;
-    border-radius: 10px;
-}
 
 .menu-items {
     width: 45%;
