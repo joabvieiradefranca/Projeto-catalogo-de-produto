@@ -5,6 +5,8 @@
 }
 
 body {
+
+    overflow: hidden;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     display: flex;
@@ -16,6 +18,7 @@ body {
 .container {
     background-color: #fff;
     width: 700px;
+    height: 670px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -75,8 +78,68 @@ footer {
     text-align: center;
     margin-top: 20px;
     font-size: 1.2em;
+    
 }
 
 footer span {
     font-weight: bold;
+}
+
+.contato1 p {
+
+    position: relative;
+    bottom: 625px;
+    left: 23%;
+    color: #ff4500;
+
+}
+
+.numero {
+    color: #000;
+
+}
+
+.div65 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+
+.carrinho1 {
+    background-color: #da541f; 
+    color: #fff; 
+    font-size: 20px; 
+    font-family: 'Inter', sans-serif; 
+    font-weight: bold; 
+    border: none; 
+    padding: 15px 40px; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+    text-transform: uppercase; 
+}
+
+.carrinho1 {
+
+    position: relative;
+    bottom: 290px;
+    right: 90%;
+
+}
+
+
+.carrinho1:hover {
+    background-color: #a31d05; 
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05); 
+}
+
+
+.carrinho1:active {
+    background-color: #a31d05; 
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
+    transform: scale(0.95); 
 }

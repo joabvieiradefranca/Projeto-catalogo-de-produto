@@ -5,7 +5,7 @@
     <title>Cardapio Digital</title>
 </head>
 <style>
-    .bg{
+    .bg {
         background-image: url(./Pasta-imagens/Imagem\ de\ odon\ bg_projeto.webp);
         background-position: center top;
         background-size: contain;
@@ -17,10 +17,76 @@
         position: fixed;
         padding: 0px;
     }
+
+    
+    .di1 {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .di1 a {
+        text-decoration: none;
+    }
+
+    .button1, .button2 {
+        background-color: #a31d05; 
+        color: #fff; 
+        font-size: 14px;
+        border: none; 
+        padding: 10px 15px; 
+        border-radius: 8px; 
+        cursor: pointer; 
+        margin: 10px; 
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+        transition: all 0.3s ease;
+        font-weight: bold; 
+    }
+
+    .button1 {
+
+        position: relative;
+        top: 162px;
+        left: 28%;
+
+    }
+
+    .button2 {
+
+        position: relative;
+        bottom: 350px;
+        left: 53%;
+
+    }
+
+    .button1:hover, .button2:hover {
+        background-color: #da541f; 
+        box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); 
+        transform: scale(1.05); 
+    }
+
+    .button1:active, .button2:active {
+        background-color: #da541f; 
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
+        transform: scale(0.95); 
+
+    }
+
 </style>
 <body style="margin:0px">
     <div class="bg" onclick="window.open('./proximapagina/','_parent');">
         
+    </div>
+
+    <div class="di1">
+        <a href="index2.html">
+            <button class="button1">VER PRODUTOS</button>
+        </a>
+        <a href="index.html">
+            <button class="button2">PROPRIETARIO</button>
+        </a>
     </div>
 </body>
 </html>

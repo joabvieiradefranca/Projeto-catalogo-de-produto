@@ -88,13 +88,24 @@ h2 {
     margin-bottom: 10px;
 }
 
+.submit-btn {
+
+    position: relative;
+    top: 50px;
+    left: 125%;
+    font-weight: bold;
+
+}
+
 .edit-btn {
     align-self: flex-end;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .submit-btn {
     align-self: center;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .submit-btn:hover {

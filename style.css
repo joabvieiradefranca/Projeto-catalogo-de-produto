@@ -450,14 +450,14 @@ body {
 
 .btn-salvar {
 
-    background-color: #1246ef;
-    color: #000000;
+    background-color: #ff6b00;
+    color: white;
 
 }
 
 .btn-salvar:hover {
 
-    background-color: #0f3bc9;
+    background-color: #ff6b00;
 
 }
 
@@ -465,6 +465,8 @@ body {
 
     background-color: #a6a6a6;
     color: #ff4500;
+    position: relative;
+    left: 10%;
 
 }
 
