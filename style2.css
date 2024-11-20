@@ -5,23 +5,25 @@
 }
 
 body {
-
-    overflow: hidden;
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    background-image: url(Pasta-imagens/Imagemp-bg2.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+        overflow: hidden;
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
 }
 
 .container {
     background-color: #fff;
-    width: 700px;
-    height: 670px;
+    width: 650px;
+    height: 600px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); */
 }
 
 .menu-header {
@@ -63,22 +65,51 @@ body {
 .menu-items li {
     display: flex;
     justify-content: space-between;
-    background-color: #ff7043;
+    background-color: #ee5729;
     color: #fff;
-    padding: 10px;
+    padding: 2.5px;
     margin-bottom: 5px;
-    border-radius: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+
 }
 
 .menu-items li span {
     color: #000;
+    font-weight: bold;
+    
+}
+
+.menu-items span {
+
+    text-align: center;
+}
+
+.add-to-cart {
+    background-color: white;
+    color: #000;
+    border: none;
+    padding: 4px 6px;
+    border-radius: 2.5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #f0f3f3;
+    transform: scale(1.1);
+}
+
+.add-to-cart:active {
+    background-color: #f0f3f3;
+    transform: scale(0.95);
 }
 
 footer {
     text-align: center;
     margin-top: 20px;
     font-size: 1.2em;
-    
 }
 
 footer span {
@@ -86,17 +117,14 @@ footer span {
 }
 
 .contato1 p {
-
     position: relative;
     bottom: 625px;
     left: 23%;
     color: #ff4500;
-
 }
 
 .numero {
     color: #000;
-
 }
 
 .div65 {
@@ -106,40 +134,35 @@ footer span {
     height: 100vh; 
 }
 
-
 .carrinho1 {
-    background-color: #da541f; 
-    color: #fff; 
-    font-size: 20px; 
-    font-family: 'Inter', sans-serif; 
-    font-weight: bold; 
-    border: none; 
-    padding: 15px 40px; 
-    border-radius: 10px; 
-    cursor: pointer; 
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
-    transition: all 0.3s ease; 
-    text-transform: uppercase; 
+    background-color: #da541f;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
 }
 
 .carrinho1 {
-
     position: relative;
     bottom: 290px;
     right: 90%;
-
 }
-
 
 .carrinho1:hover {
-    background-color: #a31d05; 
-    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); 
-    transform: scale(1.05); 
+    background-color: #a31d05;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
 }
 
-
 .carrinho1:active {
-    background-color: #a31d05; 
-    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2); 
-    transform: scale(0.95); 
+    background-color: #a31d05;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95);
 }

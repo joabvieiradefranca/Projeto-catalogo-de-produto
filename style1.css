@@ -5,22 +5,35 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-image: url(Pasta-imagens/Imagemp-bg2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+        align-items: center;
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+
 }
 
+
 .container {
+
+    position: relative;
+    top: 70px;
+    right: 20%;
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    
 }
 
 .image-gallery {
+    
     flex: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+
 }
 
 .gallery-item {
@@ -31,7 +44,7 @@ body {
     border-radius: 10px;
 }
 
-.item1 {
+/* .item1 {
     background-image: url('https://img.freepik.com/fotos-gratis/fatia-de-frutas-perto-de-ervas-e-copo-com-coquetel-e-palhas_23-2148107926.jpg?t=st=1730913858~exp=1730917458~hmac=519d7d9cda6b76d9d54f45e8c07751f941fc28be39cba1d36f9389e22fb1bea5&w=740');
 }
 
@@ -45,21 +58,27 @@ body {
 
 .item4 {
     background-image: url('https://img.cybercook.com.br/receitas/491/como-fazer-arroz-de-forno-2.jpeg');
-}
+} */
 
 .cart {
+   
     flex: 1;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     margin-left: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    /* border: 1px solid #ca2b03; */
+
 }
 
 h2 {
+    position: relative;
+    bottom: 90px;
+    font-size: 43px;
     margin-bottom: 20px;
     color: #333;
 }
@@ -76,9 +95,118 @@ h2 {
     margin-bottom: 10px;
     font-size: 16px;
     color: #333;
+    align-items: center;
 }
 
-.edit-btn, .submit-btn {
+.cart-items .remove-btn1 {
+    background-color: #ec5108;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.cart-items .remove-btn2 {
+    background-color: #ec5108;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.cart-items .remove-btn3 {
+    background-color: #ec5108;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.cart-items .remove-btn4 {
+    background-color: #ec5108;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.spanPreco1 {
+
+    position: relative;
+    left: 2%;
+
+}
+
+.spanPreco3 {
+
+    position: relative;
+    left: 1%;
+
+}
+
+.spanPreco4 {
+
+    position: relative;
+    right: 1%;
+}
+
+.remove-btn1 {
+
+    position: relative;
+    left: 1%;
+
+}
+
+.remove-btn3 {
+
+    position: relative;
+    left: 1%;
+    
+}
+
+.remove-btn1:hover {
+    
+    background-color: #ca2b03;
+
+}
+
+.remove-btn2:hover {
+    
+    background-color: #ca2b03;
+
+}
+
+.remove-btn3:hover {
+    
+    background-color: #ca2b03;
+
+}
+
+.remove-btn4:hover {
+    
+    background-color: #ca2b03;
+
+}
+
+.cart-items .quantity-input {
+    width: 60px; 
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.edit-btn1, .submit-btn1 {
     background-color: #ec5108;
     color: white;
     padding: 10px 20px;
@@ -88,30 +216,53 @@ h2 {
     margin-bottom: 10px;
 }
 
-.submit-btn {
-
+.submit-btn1 {
     position: relative;
-    top: 50px;
-    left: 125%;
+    top: 20px;
     font-weight: bold;
-
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
 }
 
-.edit-btn {
+.edit-btn1 {
     align-self: flex-end;
     font-weight: bold;
     font-size: 16px;
+    text-decoration: none;
+
 }
 
-.submit-btn {
-    align-self: center;
+.submit-btn1 {
     font-size: 20px;
+    margin-top: 20px; 
 }
 
-.submit-btn:hover {
+.submit-btn1:hover {
     background-color: #e65a00;
 }
 
-.edit-btn:hover {
-    background-color: #e65a00;
+.edit-btn1:hover {
+    background-color: #eb6816;
 }
+
+.cart-actions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cart-actions p {
+    font-size: 18px;
+    color: #333;
+}
+
+.cart-actions .submit-btn {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+

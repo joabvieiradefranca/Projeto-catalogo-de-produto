@@ -8,7 +8,6 @@
 </head>
 <body>
     <div class="container">
-        
         <div class="image-gallery">
             <div class="gallery-item item1"></div>
             <div class="gallery-item item2"></div>
@@ -16,19 +15,39 @@
             <div class="gallery-item item4"></div>
         </div>
 
-        
         <div class="cart">
-            <button class="edit-btn">Editar Pedido</button>
+            <a href="index2.html" class="edit-btn1">Editar Pedido</a>
             <h2>MEU CARRINHO</h2>
             <ul class="cart-items">
-                <li>-Suco Tropical <span>R$15.00</span></li>
-                <li>-Suco de Laranja <span>R$17.00</span></li>
-                <li>-Taco Mexicano <span>R$16.50</span></li>
-                <li>-Arroz Temperado <span>R$24.00</span></li>
+                <li>
+                    Suco Tropical 
+                    <span class="spanPreco1">R$15.00</span>
+                    <button class="remove-btn1">Remover</button>
+                    <input type="number" value="1" class="quantity-input" min="1">
+                </li>
+                <li>
+                    Suco de Laranja 
+                    <span class="spanPreco2">R$17.00</span>
+                    <button class="remove-btn2">Remover</button>
+                    <input type="number" value="1" class="quantity-input" min="1">
+                </li>
+                <li>
+                    Taco Mexicano 
+                    <span class="spanPreco3">R$16.50</span>
+                    <button class="remove-btn3">Remover</button>
+                    <input type="number" value="1" class="quantity-input" min="1">
+                </li>
+                <li>
+                    Arroz Temperado 
+                    <span class="spanPreco4">R$24.00</span>
+                    <button class="remove-btn4">Remover</button>
+                    <input type="number" value="1" class="quantity-input" min="1">
+                </li>
             </ul>
-            <a href="index4.html">
-                <button class="submit-btn">Enviar Pedido</button>
-            </a>
+            <div class="cart-actions">
+                <p>Total: <span id="total-value">R$73.00</span></p>
+                <a href="index4.html" class="submit-btn1">Enviar Pedido</a>
+            </div>
         </div>
     </div>
 </body>
